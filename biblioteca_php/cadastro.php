@@ -35,10 +35,10 @@
         </form>
 
         <div class="nav-links">
-            <p>Já possui uma conta? <a href="index.php">Fazer login</a></p>
+            <p>Já possui uma conta? <a href="login.php">Fazer login</a></p>
         </div>
 
-        <a href="index.php" class="btn btn-voltar">Voltar para a página inicial</a>
+        <a href="login.php" class="btn btn-voltar">Voltar para a página inicial</a>
 
         <div class="dica-navegacao">
             <strong>Fluxo:</strong> Cadastro de usuário → Login → Painel → Gerenciar livros.

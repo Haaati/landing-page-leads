@@ -23,7 +23,7 @@ header("cache-control: no-store, no-cache, must-revalidate");
 header("pragma: no-cache");
 header("expires: 0");
 
-header("Location: index.php");
+header("Location: login.php");
 exit()
 
 ?>

@@ -21,7 +21,7 @@ $sql = "INSERT INTO usuarios (nome, email, senha) VALUES ('$nome', '$email', '$s
 
 mysqli_query($conexao, $sql);
 
-header("Location: index.php");
+header("Location: login.php");
 exit();
 
 ?>

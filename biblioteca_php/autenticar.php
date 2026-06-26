@@ -18,7 +18,7 @@ if ($usuario && password_verify($senha, $usuario['senha'])) {
     header("Location:painel.php");
     exit();
 } else {
-    header("Location:index.php?erro=login");
+    header("Location:login.php?erro=login");
 }
 
 ?>

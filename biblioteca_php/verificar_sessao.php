@@ -7,7 +7,7 @@ header("pragma: no-cache");
 header("expires: 0");
 
 if (!isset($_SESSION['nome'])) {
-    header("Location: index.php");
+    header("Location: login.php");
     exit();
 }
 
